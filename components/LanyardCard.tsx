@@ -1,3 +1,17 @@
+"use client";
+
+import React, { useState } from "react";
+import {
+  motion,
+  useMotionValue,
+  useTransform,
+  useSpring,
+} from "framer-motion";
+
+// ... sisa kode LanyardCard kamu di bawahnya ...
+
+
+
 function LanyardCard() {
   const [isSwinging, setIsSwinging] = useState(false);
 
